@@ -32,7 +32,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 f, (ax1, ax2) = plt.subplots(1,2, sharey=True)
 
-#sns.histplot(x1,bins=20, kde=True,ax=ax1)
+sns.histplot(x1,bins=20, kde=True,ax=ax1)
 #
 mu, std = norm.fit(x1)
 
